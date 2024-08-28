@@ -1,0 +1,48 @@
+{
+  "name": "ybj-public-library",
+  "version": "0.0.0",
+  "description": "A cross-platform general business public library dedicated to yunbaojia.com",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "prepare": "node dist.js"
+  },
+  "files": [
+    "src",
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "dependencies": {
+    "axios": "^1.7.5",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarlonYJG/ybj-public-library.git"
+  },
+  "keywords": [
+    "yunbaojia",
+    "yunbaojia.cn",
+    "yunbaojia.com",
+    "ybj",
+    "ybj-public-library"
+  ],
+  "author": "Marlon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarlonYJG/ybj-public-library/issues"
+  },
+  "homepage": "https://github.com/MarlonYJG/ybj-public-library#readme"
+}
